@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://salmon-tree-0e3664000.1.azurestaticapps.net/"
 languageCode = "en-us"
 theme = "stack"
 title = "평범한 개발자의 일상"
