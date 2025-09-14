@@ -1,0 +1,20 @@
+.home-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 80vh;
+}
+
+.menu-icon {
+  font-size: 2rem;
+  color: #ddd;
+  text-decoration: none;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+/* 클릭 후 사이드바 쪽으로 이동 */
+.menu-icon.to-sidebar {
+  transform: translateX(-600px); /* 화면 왼쪽으로 이동 */
+  opacity: 0;
+}

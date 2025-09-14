@@ -1,0 +1,89 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+theme = "stack"
+title = "평범한 개발자의 일상"
+copyright = "es"
+
+DefaultContentLanguage = "en"
+hasCJKLanguage = true
+
+[menu]
+
+ [[menu.social]]
+  name = "GitHub"
+  url = "https://github.com/seo-myeong-jun-99"
+  weight = 1
+  [menu.social.params]
+    icon = "brand-github"
+
+[[menu.social]]
+  name = "Email"
+  url = "mailto:es990310@gmail.com"
+  weight = 2
+  [menu.social.params]
+    icon = "messages"
+
+  [[menu.main]]
+    identifier = "home"
+    name = "home"
+    url = "/"
+    weight = 1
+    [menu.main.params]
+    icon = "home"
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "post"
+    url = "/post/"
+    weight = 2
+    [menu.main.params]
+    icon = "archives"
+   
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+    weight = 3
+    [menu.main.params]
+    icon = "user"
+  
+  [[menu.main]]
+    identifier = "archive"
+    name = "archive"
+    url = "/archives/"
+    weight = 4
+    [menu.main.params]
+    icon = "clock"
+  
+[params.widgets]
+  homepage = [
+    {type = "search", params = {limit = 10}},
+    { type = "categories", params = { limit = 10 } },
+    { type = "tag-cloud", params = { limit = 10 } }
+  ]
+
+  page = [
+    { type = "toc" }
+  ]
+
+[params.comments]
+  enabled = true
+  provider = "giscus"
+
+  [params.comments.giscus]
+    repo = "seo-myeong-jun-99/es90310-blog-comments"
+    repoID = "R_kgDOPvtXug"
+    category = "General"
+    categoryID = "DIC_kwDOPvtXuc4B-XXXX"
+    mapping = "pathname"
+    reactionsEnabled = 1
+    emitMetadata = 0
+    inputPosition = "bottom"
+    lightTheme = "light"
+    darkTheme = "dark"
+    lang = "ko"
+  
+
+[params.footer]
+  since = 2025
+  

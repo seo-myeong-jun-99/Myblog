@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on 평범한 개발자의 일상</title>
+        <link>https://example.com/page/</link>
+        <description>Recent content in Pages on 평범한 개발자의 일상</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>es</copyright><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Search</title>
+        <link>https://example.com/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/page/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

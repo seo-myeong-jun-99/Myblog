@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on 평범한 개발자의 일상</title>
+        <link>https://example.com/categories/</link>
+        <description>Recent content in Categories on 평범한 개발자의 일상</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>es</copyright>
+        <lastBuildDate>Sun, 14 Sep 2025 22:22:51 +0900</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>개발</title>
+        <link>https://example.com/categories/%EA%B0%9C%EB%B0%9C/</link>
+        <pubDate>Sun, 14 Sep 2025 22:22:51 +0900</pubDate>
+        
+        <guid>https://example.com/categories/%EA%B0%9C%EB%B0%9C/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>튜토리얼</title>
+        <link>https://example.com/categories/%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC/</link>
+        <pubDate>Sun, 14 Sep 2025 22:22:51 +0900</pubDate>
+        
+        <guid>https://example.com/categories/%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,22 @@
+<nav class="breadcrumb">
+  <a href="{{ .Site.BaseURL }}">Home</a>
+
+  {{ if not .IsHome }}
+    {{ if .IsSection }}
+      &nbsp;&laquo;&nbsp;
+      <span>{{ .Title }}</span>
+
+    {{ else if .Section }}
+      &nbsp;&laquo;&nbsp;
+      <a href="{{ .Site.GetPage (printf "section/%s" .Section) | relURL }}">
+        {{ .Section | title }}
+      </a>
+      &nbsp;&laquo;&nbsp;
+      <span>{{ .Title }}</span>
+
+    {{ else }}
+      &nbsp;&laquo;&nbsp;
+      <span>{{ .Title }}</span>
+    {{ end }}
+  {{ end }}
+</nav>

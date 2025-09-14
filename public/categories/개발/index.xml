@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>개발 on 평범한 개발자의 일상</title>
+        <link>https://example.com/categories/%EA%B0%9C%EB%B0%9C/</link>
+        <description>Recent content in 개발 on 평범한 개발자의 일상</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>es</copyright>
+        <lastBuildDate>Sun, 14 Sep 2025 22:22:51 +0900</lastBuildDate><atom:link href="https://example.com/categories/%EA%B0%9C%EB%B0%9C/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>First</title>
+        <link>https://example.com/post/first/</link>
+        <pubDate>Sun, 14 Sep 2025 22:22:51 +0900</pubDate>
+        
+        <guid>https://example.com/post/first/</guid>
+        <description>&lt;h1 id=&#34;나의-첫글-작성&#34;&gt;나의 첫글 작성
+&lt;/h1&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
