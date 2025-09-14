@@ -32,7 +32,7 @@ hasCJKLanguage = true
     icon = "home"
 
   [[menu.main]]
-    identifier = "posts"
+    identifier = "post"
     name = "post"
     url = "/post/"
     weight = 2
@@ -74,7 +74,7 @@ hasCJKLanguage = true
     repo = "seo-myeong-jun-99/es90310-blog-comments"
     repoID = "R_kgDOPvtXug"
     category = "General"
-    categoryID = "DIC_kwDOPvtXuc4B-XXXX"
+    categoryID = "DIC_kwDOPvtXus4Cvbk5"
     mapping = "pathname"
     reactionsEnabled = 1
     emitMetadata = 0

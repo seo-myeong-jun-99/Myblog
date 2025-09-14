@@ -8,9 +8,9 @@
 
     {{ else if .Section }}
       &nbsp;&laquo;&nbsp;
-      <a href="{{ .Site.GetPage (printf "section/%s" .Section) | relURL }}">
-        {{ .Section | title }}
-      </a>
+      {{ with .Site.GetPage "section" .Section }}
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
       &nbsp;&laquo;&nbsp;
       <span>{{ .Title }}</span>
 
