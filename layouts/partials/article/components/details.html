@@ -9,14 +9,13 @@
     </header>
     {{ end }}
 
-     {{ if not (in (slice "about" "posts") .Title | lower) }}
+    
     <div class="article-title-wrapper">
         <h2 class="article-title">
             <a href="{{ .RelPermalink }}">
                 {{- .Title -}}
             </a>
         </h2>
-        {{ end }}
     
         {{ with .Params.description }}
         <h3 class="article-subtitle">
