@@ -4,6 +4,9 @@ theme = "stack"
 title = "평범한 개발자의 일상"
 copyright = "es"
 
+[params]
+  description = "힘든 하루"
+
 DefaultContentLanguage = "en"
 hasCJKLanguage = true
 
